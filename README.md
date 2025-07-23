@@ -1,5 +1,5 @@
 # Dining Philosophers Concurrency Problem - Java Implementation
-
+https://github.com/afdeanon/Dining-Philosophers-Concurrency-Problem/blob/main/diningphilosophers.gif.mov
 
 **A multithreaded Java implementation of the classic Dining Philosophers synchronization problem using ReentrantLocks and Condition variables to manage resource contention and prevent deadlock among competing philosopher threads.**
 
