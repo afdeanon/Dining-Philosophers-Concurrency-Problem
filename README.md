@@ -3,13 +3,16 @@ https://github.com/afdeanon/Dining-Philosophers-Concurrency-Problem/blob/main/di
 
 **A multithreaded Java implementation of the classic Dining Philosophers synchronization problem using ReentrantLocks and Condition variables to manage resource contention and prevent deadlock among competing philosopher threads.**
 
-## 🍽️ Overview
+## Overview
 
 This project implements the classic **Dining Philosophers Problem**, a fundamental synchronization problem in computer science that illustrates the challenges of resource allocation and deadlock prevention in concurrent programming.
 
 The problem involves five philosophers sitting around a circular table, each alternating between thinking and eating. Each philosopher needs two chopsticks (forks) to eat, but there are only five chopsticks total, creating potential conflicts and synchronization challenges.
 
-## 🎯 Problem Statement
+## Project Timeline
+September 2023 - October 2023
+
+## Problem Statement
 
 - **5 Philosophers** sit around a circular table
 - **5 Chopsticks** are placed between adjacent philosophers
@@ -17,7 +20,7 @@ The problem involves five philosophers sitting around a circular table, each alt
 - A philosopher needs **both adjacent chopsticks** to eat
 - Must avoid **deadlock** and **starvation**
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Components
 
@@ -34,7 +37,7 @@ The problem involves five philosophers sitting around a circular table, each alt
 - **Thread-Safe Singleton**: `DiningService` manages shared resources
 - **Producer-Consumer**: Philosophers compete for limited chopstick resources
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### Synchronization Mechanism
 - **ReentrantLock**: Provides exclusive access to chopsticks
@@ -46,7 +49,7 @@ The problem involves five philosophers sitting around a circular table, each alt
 - **Random Sleep Times**: Simulates realistic thinking/eating durations (1-5 seconds)
 - **Clean Resource Management**: Proper lock acquisition and release
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java 8 or higher
@@ -72,7 +75,7 @@ Philosopher 4 is thinking
 ...
 ```
 
-## 💡 Learning Outcomes
+## Learning Outcomes
 
 This implementation demonstrates key computer science concepts:
 
